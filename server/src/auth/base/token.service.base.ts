@@ -7,7 +7,7 @@ import { ITokenService, ITokenPayload } from "../ITokenService";
  */
 @Injectable()
 export class TokenServiceBase implements ITokenService {
-  constructor(protected readonly jwtService: JwtService) {}
+  constructor(protected readonly jwtService: JwtService) {}fdf
   /**
    *
    * @object { id: String, username: String, password: String}
